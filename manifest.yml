@@ -1,0 +1,8 @@
+---
+applications:
+- name: Orchard
+  memory: 800M
+  env:
+    ASPCORE_ENVIRONMENT: Development
+buildpacks: 
+  - dotnet-core-buildpack
