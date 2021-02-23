@@ -6,8 +6,12 @@
 
 	<ItemGroup>
 		<PackageReference Include="GovUk.Frontend.AspNetCore" Version="0.4.4" />
-		<PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-15765" />
-		<PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-15765" />
+		<PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-15866" />
+		<PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-15866" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\GDSTheme\GDSTheme.csproj" />
 	</ItemGroup>
 
 </Project>
